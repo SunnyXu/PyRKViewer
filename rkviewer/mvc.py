@@ -7,6 +7,8 @@ from .canvas.data import Compartment, Node, Reaction
 
 #Jin_edit2
 
+#additional_edition
+
 class IController(abc.ABC):
     """The inteface class for a controller
 
