@@ -23,6 +23,7 @@ from enum import Enum
 from collections import defaultdict
 from marshmallow import Schema, fields, validate, missing as missing_, ValidationError, pre_dump
 
+#Jin_edit3
 
 @dataclass(frozen=True)
 class TColor:
@@ -59,6 +60,7 @@ class TFont:
         self.name = ""
         self.color = TColor(0, 0, 0, 255)
 
+#Jin_edit4
 
 @dataclass
 class TNode:
